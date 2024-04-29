@@ -1,0 +1,21 @@
+header{
+    text-align: center;
+     
+    a{
+        float: left;
+        margin: 30px;
+        text-decoration: none;
+    }
+    .logo_date{
+        
+        h1{
+            font-size: 45px;
+            color: white;
+            text-shadow: -1px -1px 0 #e08888,  1px -1px 0 #ffaaaa,-1px 1px 0 #ffa9a9,1px 1px 0 #faa3a3;
+        }
+        h2{
+            color: white;
+            text-shadow: -1px -1px 0 #e08888,  1px -1px 0 #ffaaaa,-1px 1px 0 #ffa9a9,1px 1px 0 #faa3a3;
+        }
+    }
+}

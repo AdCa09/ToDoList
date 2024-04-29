@@ -1,0 +1,16 @@
+footer {
+  text-align: center;
+}
+footer .social_media a {
+  text-decoration: none;
+  color: rgb(175, 175, 175);
+  margin: 15px;
+  padding-top: 20px;
+  text-align: center;
+  transition: 0.3s ease-in;
+  font-size: 25px;
+}
+footer .social_media a:hover {
+  transform: scale(1.5);
+  color: rgb(202, 202, 202);
+}/*# sourceMappingURL=footer.css.map */
