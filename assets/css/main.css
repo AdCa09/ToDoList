@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap");
 * {
-  font-family: "Roboto", sans-serif;
+  font-family: "Platypi", serif;
 }
 
 body {
@@ -25,54 +25,80 @@ body #container {
   margin-top: 60px;
 }
 body #task_list {
-  padding: 10px 20px;
+  padding-bottom: 20px;
 }
 body #task_list li {
-  background-color: #DBDBDA;
+  background-color: #ffe7e0;
   border-radius: 8px;
   list-style-type: none;
   padding: 5px 15px;
   color: rgb(168, 145, 145);
+  margin-bottom: 5px;
+}
+body #task_list li .countdown {
+  font-weight: bold;
+  font-size: 15px;
+  color: rgb(187, 187, 187);
+  margin-left: 30px;
+  padding-top: 10px;
+  float: right;
 }
 body #task_list li button {
   margin-left: 20px;
 }
 body #task_list li input[type=checkbox] {
   float: left;
-  margin-top: 16px;
+  padding-top: 15px;
+  margin-top: 6px;
 }
-body main input[type=text] {
+body main {
+  text-align: center;
+}
+body main #submit {
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #ededed;
+}
+body main #submit:hover {
+  background-color: #97dbf0;
+  cursor: pointer;
+  transition: 0.8s ease-in;
+}
+body main #to_input {
   width: 50%;
   height: 40px;
   padding: 10px;
   border: none;
   border-radius: 8px;
-  background-color: #f2f2f2;
+  background-color: #e6e4e4;
   color: #333;
   font-size: 16px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s ease;
 }
-body main input[type=text]:hover {
-  background-color: #e0e0e0;
-}
-body main input[type=text]:hover:focus {
-  outline: none;
-  background-color: #fff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+body main #to_input:hover {
+  background-color: #97dbf0;
+  transition: 0.6s ease-in;
 }
 body main button {
   background-color: #D5D5D3;
-  box-shadow: 0px 0px 6px -1px;
-  padding: 15px;
-  border-radius: 10%;
-  border: 0;
+  border: none;
+  box-shadow: none;
+  padding: 0;
   transition: transform 0.2s;
+}
+body main button .fa-solid {
+  background-color: #ffe7e0;
+  font-size: 25px;
+}
+body main button .fa-trash {
+  color: red;
+  cursor: pointer;
+}
+body main button .fa-pen {
+  color: brown;
+  cursor: pointer;
 }
 body main button:active {
   transform: scale(0.9);
-}
-
-::-webkit-scrollbar {
-  width: 5px; /* Largeur de la scrollbar */
 }/*# sourceMappingURL=main.css.map */
