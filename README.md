@@ -1,7 +1,5 @@
 # ToDoList 📝✅
 
-![Aperçu de ToDoList](/chemin/vers/votre/image.png)
-
 Bienvenue dans MyToDoList, une application simple et efficace pour organiser vos tâches quotidiennes ! 
 
 ## Présentation
@@ -26,9 +24,6 @@ MyToDoList est une application légère et conviviale conçue pour vous aider à
 1. Clonez ce dépôt :
 2. Ouvrez le fichier `index.html` dans votre navigateur web préféré.
 
-## Capture d'Écran 🖼️
-
-![Capture d'Écran de ToDoList](/chemin/vers/votre/capture/d/ecran.png)
 
 ## Auteur 👨‍💻
 
