@@ -1,7 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+footer {
+  text-align: center;
+}
+footer .social_media a {
+  text-decoration: none;
+  color: rgb(175, 175, 175);
+  margin: 15px;
+  padding-top: 20px;
+  text-align: center;
+  transition: 0.3s ease-in;
+  font-size: 25px;
+}
+footer .social_media a:hover {
+  transform: scale(1.5);
+  color: rgb(202, 202, 202);
+}
+
 header {
   text-align: center;
 }
+header a {
+  float: left;
+  margin: 30px;
+  text-decoration: none;
+}
+header .logo_date h1 {
+  font-size: 45px;
+  color: white;
+  text-shadow: -1px -1px 0 #e08888, 1px -1px 0 #ffaaaa, -1px 1px 0 #ffa9a9, 1px 1px 0 #faa3a3;
+}
+header .logo_date h2 {
+  color: white;
+  text-shadow: -1px -1px 0 #e08888, 1px -1px 0 #ffaaaa, -1px 1px 0 #ffa9a9, 1px 1px 0 #faa3a3;
+}
 
-main {
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 150vh;
+  margin: 0;
+  background-image: url(/assets/images/istockphoto-1299946944-612x612.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 60%;
+  background-position: center top;
+  background-color: #ffeece;
+}
+body #container {
+  width: 100%;
+  max-width: 600px;
+  overflow-y: auto;
+  padding: 0 20px 80vh 0;
+  background-color: white;
+  margin-top: 60px;
+}
+body #task_list {
+  padding-bottom: 20px;
+}
+body #task_list li {
+  background-color: #fff1f1;
+  border-radius: 8px;
+  list-style-type: none;
+  padding: 5px 15px;
+  color: rgb(168, 145, 145);
+}
+body #task_list li .countdown {
+  font-weight: bold;
+  font-size: 15px;
+  color: rgb(221, 202, 202);
+  margin-left: 30px;
+  padding-top: 10px;
+  float: right;
+}
+body #task_list li button {
+  margin-left: 20px;
+}
+body #task_list li input[type=checkbox] {
+  float: left;
+  background-image: url(https://cdn-icons-png.flaticon.com/128/150/150499.png);
+}
+body main {
   text-align: center;
+}
+body main #to_input {
+  width: 50%;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #e6e4e4;
+  color: #333;
+  font-size: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+body main #to_input:hover {
+  background-color: #ee6565;
+}
+body main #to_input:hover:focus {
+  outline: none;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+body main button {
+  background-color: #D5D5D3;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  transition: transform 0.2s;
+}
+body main button .fa-solid {
+  background-color: #fff1f1;
+  font-size: 25px;
+}
+body main button:active {
+  transform: scale(0.9);
+}
+
+::-webkit-scrollbar {
+  width: 5px; /* Largeur de la scrollbar */
 }/*# sourceMappingURL=style.css.map */

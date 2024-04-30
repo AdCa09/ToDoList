@@ -7,11 +7,11 @@ header a {
   text-decoration: none;
 }
 header .logo_date h1 {
-  font-size: 45px;
+  font-size: 60px;
   color: white;
-  text-shadow: -1px -1px 0 #e08888, 1px -1px 0 #ffaaaa, -1px 1px 0 #ffa9a9, 1px 1px 0 #faa3a3;
+  text-shadow: -1px -1px 0 #e7bfbf, 1px -1px 0 #ffaaaa, -1px 1px 0 #ffa9a9, 1px 1px 0 #faa3a3;
 }
 header .logo_date h2 {
   color: white;
-  text-shadow: -1px -1px 0 #e08888, 1px -1px 0 #ffaaaa, -1px 1px 0 #ffa9a9, 1px 1px 0 #faa3a3;
+  text-shadow: -1px -1px 0 #e97f9f, 1px -1px 0 #ffaaaa, -1px 1px 0 #ffa9a9, 1px 1px 0 #faa3a3;
 }/*# sourceMappingURL=header.css.map */
